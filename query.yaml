@@ -1,0 +1,8 @@
+scenarios:
+    - flow:
+        - post:
+            url: "/v3/query"
+            form:
+                q: "{{ input_id }}"
+                scopes: "{{ scopes }}"
+                fields: "{{ fields }}"

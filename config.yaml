@@ -1,0 +1,13 @@
+config:
+    environments:
+        production:
+            target: "https://mygene.info"
+            phases:
+                - duration: 5
+                  arrivalRate: 20
+    payload:
+        path: "examples.csv"
+        fields:
+            - "input_id"
+            - "scopes"
+            - "fields"
